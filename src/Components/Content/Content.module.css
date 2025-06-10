@@ -1,0 +1,15 @@
+.content {
+ background-color: #F2F2F2;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.text_content {
+ max-width: 300px;
+ margin: 320px auto;
+ font-family: "Montserrat";
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 100%;
+ color: #F88805;
+}

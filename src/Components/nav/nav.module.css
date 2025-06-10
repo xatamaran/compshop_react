@@ -1,0 +1,29 @@
+.header_nav_item {
+ margin-top: 10px;
+ margin-right: 65px;
+}
+
+.header_nav_item:last-child {
+ margin-right: 0px;
+}
+
+.header_nav_link {
+ font-family: "Montserrat";
+ font-weight: 400;
+ font-size: 13px;
+ line-height: 100%;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+/* 
+.header_nav_link:active, .header_nav_link:hover, .header_nav_link:focus{
+ color: #F88805;
+ outline: 0;
+} */
+.header_nav_link:hover,
+.header_nav_link:focus {opacity: .75;}
+
+a.active {
+ color: #F88805;
+ outline: 0;
+}
