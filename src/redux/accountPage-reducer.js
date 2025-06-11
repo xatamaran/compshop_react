@@ -15,7 +15,7 @@ let initialState = {
 		{ key: 10, id: 10, productName: 'LG' },
 		{ key: 11, id: 11, productName: 'Samsung' },
 		{ key: 12, id: 12, productName: 'OPO' },
-		{ key: 13, id: 13, productName: 'OPO' },
+		{ key: 13, id: 13, productName: 'OPOoooo' },
 	],
 	textarea: {
 		text1: '',

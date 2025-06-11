@@ -2,9 +2,11 @@ import classes from './Catalog.module.css'
 import Item from '../Item/Item'
 
 function Catalog(props) {
-	let itemElements = props.catalogData.map(catalogItem => (
-		<Item key={catalogItem.key} id={catalogItem.id} productName={catalogItem.productName} />
-	))
+	let itemElements = props.store
+		.getState()
+		.catalogPage.catalogData.map(catalogItem => (
+			<Item key={catalogItem.key} id={catalogItem.id} productName={catalogItem.productName} />
+		))
 
 	return (
 		<div className={classes.catalog}>
